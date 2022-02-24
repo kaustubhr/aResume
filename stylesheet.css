@@ -1,6 +1,4 @@
-h4 {
-    text-align:right;
-}
+
 input { text-align: center; }
 #trial{
     display: flex;
@@ -27,14 +25,14 @@ input { text-align: center; }
   outline: none;
   overflow: visible;
   padding: 13px 16px;
-  text-align: center;
+  
   text-transform: uppercase;
   touch-action: manipulation;
   transform: translateZ(0);
   transition: filter .2s;
   user-select: none;
   -webkit-user-select: none;
-  vertical-align: middle;
+  
   white-space: nowrap;
 }
 
