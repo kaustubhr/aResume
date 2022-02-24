@@ -95,4 +95,4 @@ input { text-align: center; }
 
 .hide{display:none;}
 .show{display:block;}
-.borderZero{border:0;}
+.borderZero{border:none;}
