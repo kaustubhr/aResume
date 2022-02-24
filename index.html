@@ -17,7 +17,7 @@
   <body>
     
   
-  <div class="modal fade trail1" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade in" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
@@ -47,24 +47,28 @@
         </div>
 
       
-        <div class="modal-footer trial1">
-          <a href="trial.pdf" download>
-            <button class="btn btn-rounded button-20">Unlock Resume</button>
-          </a>
+       
+
+        <div class="trial" >
+    
+          <button role="button" class="button-19 btn-sm" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalLoginForm" onclick="hideButton(this)">
+          Unlock Resume
+          </button>
+        
         </div>
+
       </div>
     </div>
   </div>
 
 
 
-  <div class="trial" >
-    
-      <button role="button" id="trial" class="button-19 btn-sm" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalLoginForm" onclick="hideButton(this)">
-      Download Resume
-      </button>
-    
+  <div class="modal-footer trial1">
+    <a href="trial.pdf" download>
+      <button class="btn btn-rounded button-20">Download Resume</button>
+    </a>
   </div>
+
 
   <script>
     function hideButton(x)
