@@ -2,10 +2,6 @@ body,html{
     background-image: linear-gradient(#f5f7fa,#c3cfe2);
 }
 
-.modal-backdrop
-{
-    opacity:0.1 !important;
-}
 
 input { text-align: center; }
 .trial1{
