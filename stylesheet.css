@@ -9,6 +9,7 @@ input { text-align: center; }
 
 /* CSS */
 .button-19 {
+    text-align: center;
   appearance: button;
   background-color: #1899D6;
   border: solid transparent;
