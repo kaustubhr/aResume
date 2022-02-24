@@ -17,7 +17,7 @@
   <body>
     
   
-  <div class="modal fade in" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
@@ -64,7 +64,7 @@
 
 
 
-  <div class="trial" >
+  <div class="trial">
     <a href="trial.pdf" download>
       <button class="btn btn-rounded button-20">Download Resume</button>
     </a>
@@ -76,6 +76,11 @@
      {
       x.style.display = 'none';
      }
+     
+    $(document).ready(function(){
+        $("#modalLoginForm").modal('show');
+    });
+
     </script>
 
 
