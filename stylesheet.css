@@ -1,6 +1,6 @@
 
 input { text-align: center; }
-#trial{
+.trial{
     display: flex;
     justify-content: center;
     align-items: center;
