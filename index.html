@@ -21,22 +21,24 @@
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title font-weight-bold">Password Required</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          <div class="trial">
+            <h4 class="modal-title font-weight-bold">Password Required</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
         </div>
    
 
         <div class="md-form">
-          <div class="col-sm-4">
+            <div class="trial">
             <i class="fas fa-lock prefix grey-text" style="text-align: center;">
             </i>
-          </div>
-          <div class="col-sm-6">
+          
             <input type="password" id="defaultForm-pass" class="form-control validate" placeholder="Enter password here" />
-          </div>
-          <label data-error="wrong" data-success="right" for="defaultForm-pass"></label>           
+          
+          <label data-error="wrong" data-success="right" for="defaultForm-pass"></label>  
+        </div>         
         </div>
 
       
@@ -48,7 +50,7 @@
   </div>
 
 
-  <div class="trial " >
+  <div class="trial" >
     <button role="button" id="trial" class="button-19 btn-sm" data-toggle="modal" data-target="#modalLoginForm">
       Download Resume
     </button>
