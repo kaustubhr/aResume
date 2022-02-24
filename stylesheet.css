@@ -18,7 +18,10 @@ input { text-align: center; }
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   font-family: din-round,sans-serif;
   font-size: 15px;
   font-weight: 700;
