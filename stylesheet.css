@@ -1,4 +1,6 @@
-
+body,html{
+    background-image: linear-gradient(#f5f7fa,#c3cfe2);
+}
 input { text-align: center; }
 .trial1{
     display: flex;
