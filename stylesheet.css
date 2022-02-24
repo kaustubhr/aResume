@@ -92,3 +92,6 @@ input { text-align: center; }
 .button-19:disabled,.button-20:disabled {
   cursor: auto;
 }
+
+.hide{display:none;}
+.show{display:block;}
