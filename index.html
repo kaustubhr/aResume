@@ -15,37 +15,37 @@
   <body>
     
 
-  <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title font-weight-bold">Password Required</h4>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
+  <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title font-weight-bold">Password Required</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
    
 
-      <div class="md-form">
+        <div class="md-form">
         
           <i class="fas fa-lock prefix grey-text" style="text-align: center;"></i>
           <input type="password" id="defaultForm-pass" class="form-control validate" placeholder="Enter password here" />
         
         
           <label data-error="wrong" data-success="right" for="defaultForm-pass"></label>
+        </div>
+
+      
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-rounded">Unlock Resume</button>
+        </div>
       </div>
-
-    </div>
-    <div class="modal-footer d-flex justify-content-center">
-        <button class="btn btn-rounded">Unlock Resume</button>
     </div>
   </div>
-  </div>
-</div>
 
-<div class="text-center btn-sm">
-  <button role="button" class="button-19" data-toggle="modal" data-target="#modalLoginForm">
+
+<div class="text-center col-xs-6">
+  <button role="button" class="button-19 btn-sm" data-toggle="modal" data-target="#modalLoginForm">
     Download Resume
   </button>
 </div>
