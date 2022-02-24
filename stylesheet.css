@@ -21,7 +21,7 @@ input { text-align: center; }
   font-weight: 700;
   letter-spacing: .8px;
   line-height: 20px;
-  margin: 0;
+  
   outline: none;
   overflow: visible;
   padding: 13px 16px;
@@ -43,9 +43,6 @@ input { text-align: center; }
   border-radius: 16px;
   border-width: 0 0 4px;
   bottom: -4px;
-  left: 0;
-  right: 0;
-  top: 0;
   z-index: -1;
 }
 
