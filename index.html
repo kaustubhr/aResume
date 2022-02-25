@@ -67,7 +67,7 @@
 
   <div class="trial">
     <a href="trial.pdf" download>
-      <button class="btn btn-rounded button-20 hide">Download Resume</button>
+      <button id="downloadBtn" class="btn btn-rounded button-20 hide">Download Resume</button>
     </a>
   </div>
 
@@ -78,7 +78,7 @@
       x.style.display = 'none';
      }
      function showDownloadBtn(){
-       document.getElementsByClassName("trial").classList.remove("hide");
+       document.getElementsById("downloadBtn").classList.remove("hide");
      }
     </script>
 
