@@ -100,3 +100,9 @@ input { text-align: center; }
 
 .hide{display:none;}
 .show{display:block;}
+
+.pass{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.1ch;
+    font-size: 24px;
+}
