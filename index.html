@@ -52,7 +52,8 @@
        
           <div class="modal-footer trial1"></div>
     
-          <button role="button" class="button-19 btn-sm" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalLoginForm" >
+          <button role="button" class="button-19 btn-sm" data-backdrop="static" data-keyboard="false" data-toggle="modal" data-target="#modalLoginForm" 
+          onclick="showDownloadBtn();">
           Unlock Resume
           </button>
         
@@ -75,6 +76,9 @@
     function hideButton(x)
      {
       x.style.display = 'none';
+     }
+     function showDownloadBtn(){
+       document.getElementsByClassName("trial").classList.remove("hide");
      }
     </script>
 
