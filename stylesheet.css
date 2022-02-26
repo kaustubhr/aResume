@@ -107,3 +107,9 @@ input { text-align: center; }
     margin-left: 23%;
     font-size : 1.5em;
 }
+@media screen and (max-width: 900px){
+  .modal-title{
+    margin-left: 20%;
+    font-size : 1.5em;
+}
+}
