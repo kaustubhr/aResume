@@ -104,5 +104,6 @@ input { text-align: center; }
 .show{display:block;}
 
 .modal-title{
-    margin-left: 25%;
+    margin-left: 23%;
+    font-size : 2em;
 }
