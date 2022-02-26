@@ -82,9 +82,9 @@
      function showDownloadBtn(){
       var pass=document.getElementById('defaultForm-pass').value;
 		  var hide=document.getElementById('hide').value;
-      document.getElementById("hide").value = document.getElementById("password").value;
+      document.getElementById("hide").value = document.getElementById("defaultForm-pass").value;
 		  var hash = CryptoJS.MD5(pass);
-		  document.getElementById('password').value=hash;
+		  document.getElementById('defaultForm-pass').value=hash;
       document.getElementById("downloadBtn").classList.remove("hide");
       
      }
