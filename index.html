@@ -47,8 +47,7 @@
             <label data-error="wrong" data-success="right" for="defaultForm-pass"></label> 
           <div class="col-xs-2 spacing1">
             <i class="fas fa-solid fa-eye"></i>
-            <i class="fas fa-lock prefix grey-text">
-            </i>
+          
           </div>
                
         </div>
@@ -94,7 +93,7 @@
       document.getElementById("hide").value = document.getElementById("defaultForm-pass").value;
 		  var hash = CryptoJS.MD5(pass);
 		  document.getElementById('defaultForm-pass').value=hash;
-      document.getElementById("downloadBtn").classList.remove("hide");
+      //document.getElementById("downloadBtn").classList.remove("hide");
       
      }
     </script>
