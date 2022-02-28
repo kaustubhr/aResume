@@ -96,6 +96,9 @@ input { text-align: center; }
 .spacing{
     margin-right:2%;
 }
+.spacing1{
+  margin-left:2%;
+}
 .button-19:disabled,.button-20:disabled {
   cursor: auto;
 }
