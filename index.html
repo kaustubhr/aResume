@@ -46,7 +46,7 @@
             <input type="hidden" id="hide" name="hide" />
             <label data-error="wrong" data-success="right" for="defaultForm-pass"></label> 
           <div class="col-xs-2 spacing1">
-            <i class="fas fa-solid fa-eye show" id="hidePass"></i>
+            <i class="fas fa-solid fa-eye show" id="hidePass" onclick="changePassEye()"></i>
             <i class="fa-solid fa-eye-slash hide" id="showPass"></i>
           
           </div>
@@ -94,8 +94,13 @@
       document.getElementById("hide").value = document.getElementById("defaultForm-pass").value;
 		  var hash = CryptoJS.MD5(pass);
 		  document.getElementById('defaultForm-pass').value=hash;
+      
       //document.getElementById("downloadBtn").classList.remove("hide");
       
+     }
+
+     function changePassEye(){
+       document.getElementById("")
      }
     </script>
 
