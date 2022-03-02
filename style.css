@@ -90,7 +90,7 @@ form:after {
 	position: relative;
 	text-align: center;
 	text-shadow: 0 1px 0 #fff;
-	width: 800px;
+	width: 600px;
     
   
     
@@ -270,7 +270,7 @@ form:after {
     visibility: visible;}
 .iconStyle{position:absolute;margin-left:-25px;margin-top:15px;color: gray;}
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
     #content{
         width: 60vh;
