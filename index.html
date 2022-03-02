@@ -14,8 +14,8 @@
 			
 			<div>
 				<input type="password" placeholder="Enter Password" required="" id="password" >
-                <i class="fas fa-solid fa-eye" id="hidePass" ></i>
-               <!-- <i class="fas fa-solid fa-eye-slash hide" id="showPass" ></i> -->
+                <i class="fas fa-solid fa-eye iconStyle hide"  id="hidePass" onclick="changePassEye()"></i>
+                <i class="fas fa-solid fa-eye-slash iconStyle" id="showPass" onclick="changePassEye()"></i>
                 </input>
 			</div>
 			<div>
@@ -26,5 +26,18 @@
 		
 	</section><!-- content -->
 </div><!-- container -->
+<script>
+	 function changePassEye(){
+       document.getElementById('hidePass').classList.toggle("hide");
+       document.getElementById('showPass').classList.toggle("hide");
+	   var passwordID = document.getElementById("password");
+	   if (passwordID.type === "password") {
+			passwordID.type = "text";
+  		}
+	   else {
+		   passwordID.type = "password";
+		}
+     }
+</script>
 </body>
 </html>

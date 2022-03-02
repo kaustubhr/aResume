@@ -164,7 +164,7 @@ form:after {
 }
 #content form { margin: 0 20px; position: relative }
 
-#content form input[type="password"] {
+#content form input[id="password"] {
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-ms-border-radius: 3px;
@@ -191,7 +191,7 @@ form:after {
 	width: 80%;
 }
 
-#content form input[type="password"]:focus {
+#content form input[id="password"]:focus {
 	-webkit-box-shadow: 0 0 2px #ed1c24 inset;
 	-moz-box-shadow: 0 0 2px #ed1c24 inset;
 	-ms-box-shadow: 0 0 2px #ed1c24 inset;
@@ -263,6 +263,11 @@ form:after {
 	border-top: 1px solid #CFD5D9;
 	padding: 15px 0;
 }
+.hide{display:none;
+    visibility: hidden;}
+.show{display: block;
+    visibility: visible;}
+.iconStyle{position:absolute;margin-left:-25px;margin-top:15px;color: gray;}
 /*
 .button a {
 	background: url(https://cssdeck.com/uploads/media/items/8/8bcLQqF.png) 0 -112px no-repeat;
