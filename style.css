@@ -273,7 +273,7 @@ form:after {
 @media only screen and (max-width: 800px) {
 
     #content{
-        width: 70vh;
+        width: 60vh;
         height: 30vh;
     }
   }
