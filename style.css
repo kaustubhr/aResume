@@ -269,6 +269,13 @@ form:after {
 .show{display: block;
     visibility: visible;}
 .iconStyle{position:absolute;margin-left:-25px;margin-top:15px;color: gray;}
+
+@media only screen and (max-width: 600px) {
+
+    #content{
+        width: 800px;
+    }
+  }
 /*
 .button a {
 	background: url(https://cssdeck.com/uploads/media/items/8/8bcLQqF.png) 0 -112px no-repeat;
