@@ -276,7 +276,7 @@ form:after {
         width: 75vw;
         height: 30vh;
     }
-    .iconStyle{position:absolute;margin-left:100px;margin-bottom:150px;padding-top: 50px;  color: gray;}
+    .iconStyle{position:absolute;margin-left:100px;padding-top: 0px;  color: gray;}
   }
 /*
 .button a {
